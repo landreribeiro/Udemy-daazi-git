@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> linguagens = new ArrayList<>();
 
-
         popularLista(linguagens);
 
         // Primeira opção..: for
