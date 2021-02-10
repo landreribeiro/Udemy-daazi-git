@@ -91,8 +91,7 @@ public class MainActivity extends AppCompatActivity {
 
         imgCarro = findViewById(R.id.imgCarro);
     }
-
-
+    
     public void fabricarCarro(){
 
         android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(MainActivity.this);
