@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
-
     }
 
     private void initCampos() {
@@ -81,4 +79,5 @@ public class MainActivity extends AppCompatActivity {
         btnLimpar = findViewById(R.id.btnLimpar);
         btnSalvar = findViewById(R.id.btnSalvar);
     }
+
 }
