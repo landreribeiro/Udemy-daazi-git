@@ -9,7 +9,6 @@ public class Fabricante {
     private String garantia;
     private String paisOrigem;
 
-
     public String getNomeFabricante() {
         return nomeFabricante;
     }

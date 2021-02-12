@@ -8,8 +8,8 @@ public class datasource {
 
     // integração do Banco de Dados com o app
     // CRUD
-    // Incluir
-    // Alterar
-    // Deletar
-    // Listar
+        // Incluir
+        // Alterar
+        // Deletar
+        // Listar
 }

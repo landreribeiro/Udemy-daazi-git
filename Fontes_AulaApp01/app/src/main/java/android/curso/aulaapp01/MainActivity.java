@@ -2,6 +2,7 @@ package android.curso.aulaapp01;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // Método setContentView utilizado para setar qual Layout
         // será utilizado para a Activity, no caso R.layout.actibity_main
         setContentView(R.layout.activity_main);
-
+        
         initFormulario();
 
         // Método setOnClickListner utilizado para receber o click
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 initCampos();
+
             }
         });
 
@@ -70,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void initFormulario() {
         // Método findViewById utilizado para linkar o componente
-        // de Layout com a classe MainActivity neste caso
+        // de Layout activity_main com a classe MainActivity neste caso
+
         primeiroNome = findViewById(R.id.primeiroNome);
         segundoNome = findViewById(R.id.segundoNome);
         telefone = findViewById(R.id.telefone);

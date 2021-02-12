@@ -6,10 +6,11 @@ import android.util.Log;
 /*
  * Sub Classe Carro que herda
  * todas as característica da
- * Classe Fabricante
+ * Classe Fabricante através de extends
  */
 public class Carro extends Fabricante implements VeiculoInterface {
 
+    // private String fabricante;  -> virou superClasse Fabricante
     private String modelo;
     private String ano;
     private String cor;
