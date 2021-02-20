@@ -55,5 +55,7 @@ public class Carro extends Fabricante implements VeiculoInterface {
     @Override
     public void opcionalArCondicionado() {
 
+        // regra de negócio para ar condicionado
+
     }
 }

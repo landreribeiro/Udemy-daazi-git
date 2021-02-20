@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AulaAppSendSMS</string>
     <string name="txtEnviarSMS">ENVIAR SMS</string>
+    <string name="txtHintPara">Para:</string>
+    <string name="txtHintMensagem">Mensagem:</string>
+    <string name="btnEnviarSMS">Enviar</string>
 </resources>

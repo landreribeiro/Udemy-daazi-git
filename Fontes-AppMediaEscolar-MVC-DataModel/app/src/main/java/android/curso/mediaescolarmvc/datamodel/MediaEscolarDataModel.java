@@ -26,9 +26,9 @@ public class MediaEscolarDataModel {
     // Criar dinamicamente uma query SQL para criar
     // a tabela Média Escolar no Banco de Dados
 
-    public String criarTabela(){
+    public static String criarTabela(){
 
-        queryCriarTabela += "CREATE TABLE "+TABELA;
+        queryCriarTabela = "CREATE TABLE "+TABELA;
         queryCriarTabela += " (";
         queryCriarTabela += id + " INTEGER PRIMARY KEY, ";
         queryCriarTabela += materia + " TEXT, ";

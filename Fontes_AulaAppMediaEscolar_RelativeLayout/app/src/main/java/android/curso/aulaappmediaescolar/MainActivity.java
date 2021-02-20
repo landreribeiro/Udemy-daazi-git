@@ -19,18 +19,12 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     Button btnCalcular;
-    EditText editMateria;
-    EditText editNotaProva;
-    EditText editNotaTrabalho;
-    TextView txtResultado;
-    TextView txtSituacaoFinal;
+    EditText editMateria, editNotaProva, editNotaTrabalho;
+    TextView txtResultado, txtSituacaoFinal;
 
-    double notaProva;
-    double notaTrabalho;
-    double media;
+    double notaProva, notaTrabalho, media;
 
     boolean dadosValidados = true;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,11 +40,9 @@ public class MainActivity extends AppCompatActivity {
         txtResultado = findViewById(R.id.txtResultado);
         txtSituacaoFinal = findViewById(R.id.txtSituacaoFinal);
 
-
         btnCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
 
                 try {
 
@@ -59,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                     } else {
                         editNotaProva.setError("*");
                         editNotaProva.requestFocus();
-                        dadosValidados =false;
+                        dadosValidados = false;
                     }
 
 
@@ -121,7 +113,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
-
 
         if (id == R.id.action_sair) {
 

@@ -6,6 +6,8 @@ package android.curso.mediaescolarmvc.model;
 
 
 // POJO
+    // só tem seu construtor padrão e seus gets e sets
+
 public class MediaEscolar {
 
     private int id;
@@ -75,4 +77,5 @@ public class MediaEscolar {
     public void setMediaFinal(double mediaFinal) {
         this.mediaFinal = mediaFinal;
     }
+
 }

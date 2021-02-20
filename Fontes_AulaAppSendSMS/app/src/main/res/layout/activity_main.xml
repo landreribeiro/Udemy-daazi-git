@@ -9,34 +9,40 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
         android:gravity="center"
-        android:textStyle="bold"
+        android:text="@string/txtEnviarSMS"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp"
-        android:text="@string/txtEnviarSMS" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/editSMSPara"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Para:"
+        android:hint="@string/txtHintPara"
         android:textSize="25sp"
-        android:inputType="phone" />
+        android:inputType="phone"
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editSMSMensagem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Mensagem:"
+        android:hint="@string/txtHintMensagem"
         android:lines="5"
         android:textSize="25sp"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/btnEnviar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="end"
-        android:text="Enviar" />\
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:text="@string/btnEnviarSMS"
+        android:textColor="@android:color/background_light" />
 </LinearLayout>

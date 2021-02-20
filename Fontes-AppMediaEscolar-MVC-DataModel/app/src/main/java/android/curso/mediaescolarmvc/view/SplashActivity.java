@@ -2,6 +2,7 @@ package android.curso.mediaescolarmvc.view;
 
 import android.content.Intent;
 import android.curso.mediaescolarmvc.R;
+import android.curso.mediaescolarmvc.datasource.DataSource;
 import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -25,6 +26,8 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+
+                DataSource ds = new DataSource(getApplicationContext());
 
                 Intent telaPrincipal
                         = new Intent(SplashActivity.this,

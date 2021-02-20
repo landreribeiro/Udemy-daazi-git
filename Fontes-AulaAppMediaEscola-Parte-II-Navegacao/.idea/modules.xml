@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.iml" filepath="$PROJECT_DIR$/.idea/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.iml" group="Fontes-AulaAppMediaEscola-Parte-II-Navegacao" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Fontes-AulaAppMediaEscola-Parte-II-Navegacao/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.iml" filepath="$PROJECT_DIR$/.idea/modules/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fontes-AulaAppMediaEscola-Parte-II-Navegacao.app.iml" />
     </modules>
   </component>
 </project>
